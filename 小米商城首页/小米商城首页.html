@@ -1,0 +1,1561 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>小米商城首页</title>
+        <link rel="stylesheet" href="./font_1148608_wih9ij6ko78/iconfont.css">
+        <link rel="stylesheet" href="index.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.0.2/css/swiper.min.css">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.0.2/js/swiper.min.js"></script>
+        <script src="https://cdn.bootcss.com/jquery/3.4.1/jquery.min.js"></script>
+    </head>
+    <body>
+        <header class="site-topbar">
+            <div class="container">
+                <ul class="section">
+                    <li class="item"><a href="">小米商城</a></li><span>|</span>
+                    <li class="item"><a href="">MIUI</a></li><span>|</span>
+                    <li class="item"><a href="">IoT</a></li><span>|</span>
+                    <li class="item"><a href="">云服务</a></li><span>|</span>
+                    <li class="item"><a href="">金融</a></li><span>|</span>
+                    <li class="item"><a href="">有品</a></li><span>|</span>
+                    <li class="item"><a href="">小爱开放平台</a></li><span>|</span>
+                    <li class="item"><a href="">企业团购</a></li><span>|</span>
+                    <li class="item"><a href="">资质证照</a></li><span>|</span>
+                    <li class="item"><a href="">协议规则</a></li><span>|</span>
+                    <li class="item"><a href="">下载app</a></li><span>|</span>
+                    <li class="item"><a href="">Select Region</a></li>
+                </ul>
+                <ul class="aside">
+                    <li class="item"><a href="">登录</a></li><span>|</span>
+                    <li class="item"><a href="">注册</a></li><span>|</span>
+                    <li class="item"><a href="">消息通知</a></li>
+                    <li class="item car"><a href="">
+                        <span class="iconfont">&#xe6af;</span>
+                        &nbsp;购物车（0）</a>
+                        <div class="cart-menu">你还没有购买商品哦</div>
+                    </li>
+                </ul>
+            </div>
+        </header>
+        <nav class="site-header">
+            <div class="container">
+                <div class="leftside">
+                    <div class="icon-brand">
+                        <img src="http://static.nodejs.cn/_static/img/logo.svg" width="100" alt="nodejs">
+                        <!-- <div class="brand">
+                            <img src="http://static.nodejs.cn/_static/img/logo.svg" alt="">
+                            <img src="" alt="">
+                        </div> -->
+                    </div>
+                    <ul class="navlist">
+                        <li class="item">
+                            <a href="">小米手机</a>
+                            <div class="item-menu">
+                                <ul class="container"></ul>
+                            </div>
+                        </li>
+                        <li class="item">
+                            <a href="">红米</a>
+                            <div class="item-menu">
+                                <ul class="container"></ul>
+                            </div>
+                        </li>
+                        <li class="item">
+                            <a href="">电视</a>
+                            <div class="item-menu">
+                                <ul class="container"></ul>
+                            </div>
+                        </li>
+                        <li class="item">
+                            <a href="">笔记本</a>
+                            <div class="item-menu">
+                                <ul class="container"></ul>
+                            </div>
+                        </li>
+                        <li class="item">
+                            <a href="">家电</a>
+                            <div class="item-menu">
+                                <ul class="container"></ul>
+                            </div>
+                        </li>
+                        <li class="item">
+                            <a href="">新品</a>
+                            <div class="item-menu">
+                                <ul class="container"></ul>
+                            </div>
+                        </li>
+                        <li class="item">
+                            <a href="">路由器</a>
+                            <div class="item-menu">
+                                <ul class="container"></ul>
+                            </div>
+                        </li>
+                        <li class="item">
+                            <a href="">智能硬件</a>
+                            <div class="item-menu">
+                                <ul class="container"></ul>
+                            </div>
+                        </li>
+                        <li class="item">
+                            <a href="">服务</a>
+                            <div class="item-menu">
+                                <ul class="container"></ul>
+                            </div>
+                        </li>
+                        <li class="item">
+                            <a href="">社区</a>
+                            <div class="item-menu">
+                                <ul class="container"></ul>
+                            </div>
+                        </li>                    
+                    </ul>
+                </div>
+                <div class="formside">
+                    <form action="">
+                        <input type="text" class="search-text" name="proName" placeholder="想要的商品">
+                        <input type="submit" class="search-button iconfont" value="&#xe651;">
+                    </form>
+                </div>
+            </div>
+        </nav>
+        <script>
+            document.querySelector(".search-text").onfocus = function(){
+                document.querySelector(".search-text").style.borderColor = "#ff6700";
+                document.querySelector(".search-button").style.borderColor = "#ff6700";
+            }
+            document.querySelector(".search-text").onblur = function(){
+                document.querySelector(".search-text").style.borderColor = "#e0e0e0";
+                document.querySelector(".search-button").style.borderColor = "#e0e0e0";
+            }
+        </script>
+        <main class="home-container">
+            <div class="container">
+                <div class="home-slide">
+                    <div class="swiper-container">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <img src="http://i1.mifile.cn/a4/xmad_15566146318197_mAghl.jpg" width="1226">
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="http://i1.mifile.cn/a4/xmad_15529884424562_HKYaG.jpg" width="1226">
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="http://i1.mifile.cn/a4/xmad_15579184778872_ECdvK.jpg" width="1226">
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="http://i1.mifile.cn/a4/xmad_15548066591437_Stxlj.jpg" width="1226">
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="http://i1.mifile.cn/a4/xmad_15476942061027_STEvM.jpg" width="1226">
+                            </div>
+                        </div>
+                        <div class="opration-slide">
+                            <!-- Add Pagination -->
+                            <div class="swiper-pagination"></div>
+                            <!-- Add Arrows -->
+                            <div class="swiper-button-next"></div>
+                            <div class="swiper-button-prev"></div>
+                        </div>
+                    </div>
+                </div>
+                <script>
+                    var swiper = new Swiper('.swiper-container', {
+                        slidesPerView: 1,
+                        spaceBetween: 30,
+                        loop: true,
+                        pagination: {
+                        el: '.swiper-pagination',
+                        clickable: true,
+                        },
+                        navigation: {
+                        nextEl: '.swiper-button-next',
+                        prevEl: '.swiper-button-prev',
+                        },
+                    });
+                </script>
+                <ul class="leftmenu">
+                    <div class="item-bgc">11</div>
+                    <li class="item">
+                        <a href="">手机&nbsp;电话卡</a>
+                        <div class="item-menu">01</div>
+                    </li>
+                    <li class="item">
+                        <a href="">电视&nbsp;盒子</a>
+                        <div class="item-menu">02</div>
+                    </li>
+                    <li class="item">
+                        <a href="">笔记本&nbsp;平板</a>
+                        <div class="item-menu">03</div>
+                    </li>
+                    <li class="item">
+                        <a href="">家电&nbsp;插线板</a>
+                        <div class="item-menu">04</div>
+                    </li>
+                    <li class="item">
+                        <a href="">出行&nbsp;穿戴</a>
+                        <div class="item-menu">05</div>
+                    </li>
+                    <li class="item">
+                        <a href="">智能&nbsp;路由器</a>
+                        <div class="item-menu">06</div>
+                    </li>
+                    <li class="item">
+                        <a href="">电源&nbsp;配件</a>
+                        <div class="item-menu">07</div>
+                    </li>
+                    <li class="item">
+                        <a href="">健康&nbsp;儿童</a>
+                        <div class="item-menu">08</div>
+                    </li>
+                    <li class="item">
+                        <a href="">耳机&nbsp;音箱</a>
+                        <div class="item-menu">09</div>
+                    </li>
+                    <li class="item">
+                        <a href="">生活&nbsp;箱包</a>
+                        <div class="item-menu">10</div>
+                    </li>
+                    
+                </ul>
+            </div>
+        </main>
+        <div class="home-sub">
+            <ul class="container">
+                <li class="item left-item">
+                    <div class="item-icon">01
+                        <span>选购手机</span>
+                    </div>
+                    <div class="item-icon">02
+                        <span>企业团购</span>
+                    </div>
+                    <div class="item-icon">03
+                        <span>F码通道</span>
+                    </div>
+                    <div class="item-icon">04
+                        <span>米粉卡</span>
+                    </div>
+                    <div class="item-icon">05
+                        <span>以旧换新</span>                        
+                    </div>
+                    <div class="item-icon">06
+                        <span>话费充值</span>
+                    </div>
+                </li>
+                <li class="item"><a href="">
+                    <img src="http://i1.mifile.cn/a4/xmad_15553962519926_fcMZl.jpg" width="316">
+                </a></li>
+                <li class="item"><a href="">
+                    <img src="http://i1.mifile.cn/a4/xmad_15566163158698_gwoiA.jpg" width="316">
+                </a></li>
+                <li class="item"><a href="">
+                    <img src="http://i1.mifile.cn/a4/xmad_15410599445473_Ivjsb.jpg" width="316">
+                </a></li>
+            </ul>
+        </div>
+        <div class="headpic">
+            <div class="container">
+                <img src="http://i1.mifile.cn/a4/xmad_15566150564326_nUZAQ.jpg" width="1226">
+            </div>
+        </div>
+        <div class="page-main">
+            <div class="container">
+                <div class="box-header">
+                    <h2>手机</h2>
+                    <!-- <div class="right-extend"></div> -->
+                    <a href="" class="right-extend">
+                        <span>查看全部</span>
+                        <span class="iconfont">&#xe65b;</span>
+                    </a>
+                </div>
+                <div class="box-body">
+                    <section>
+                        <img src="http://i1.mifile.cn/a4/xmad_15578089659428_Uywcg.jpg" width="234">
+                    </section>
+                    <main>
+                        <div class="item"><a href="">
+                            <div class="flag flag-new">新品</div>
+                            <img src="http://i1.mifile.cn/a1/pms_1550642182.7527088!220x220.jpg" width="160">
+                            <h3 class="title">小米9 6GB+128GB</h3>
+                            <p class="desc">骁龙855，索尼4800万超广角微距三摄</p>
+                            <span class="price">2999元</span>
+                        </a></div>
+                        <div class="item"><a href="">
+                            <div class="flag flag-new">新品</div>
+                            <img src="http://i1.mifile.cn/a1/pms_1550642182.7527088!220x220.jpg" width="160">
+                            <h3 class="title">小米9 6GB+128GB</h3>
+                            <p class="desc">骁龙855，索尼4800万超广角微距三摄</p>
+                            <span class="price">2999元</span>
+                        </a></div>
+                        <div class="item"><a href="">
+                            <div class="flag flag-new">新品</div>
+                            <img src="http://i1.mifile.cn/a1/pms_1550642182.7527088!220x220.jpg" width="160">
+                            <h3 class="title">小米9 6GB+128GB</h3>
+                            <p class="desc">骁龙855，索尼4800万超广角微距三摄</p>
+                            <span class="price">2999元</span>
+                        </a></div>
+                        <div class="item"><a href="">
+                            <div class="flag flag-new">新品</div>
+                            <img src="http://i1.mifile.cn/a1/pms_1550642182.7527088!220x220.jpg" width="160">
+                            <h3 class="title">小米9 6GB+128GB</h3>
+                            <p class="desc">骁龙855，索尼4800万超广角微距三摄</p>
+                            <span class="price">2999元</span>
+                        </a></div>
+                        <div class="item"><a href="">
+                            <div class="flag flag-new">新品</div>
+                            <img src="http://i1.mifile.cn/a1/pms_1550642182.7527088!220x220.jpg" width="160">
+                            <h3 class="title">小米9 6GB+128GB</h3>
+                            <p class="desc">骁龙855，索尼4800万超广角微距三摄</p>
+                            <span class="price">2999元</span>
+                        </a></div>
+                        <div class="item"><a href="">
+                            <div class="flag flag-new">新品</div>
+                            <img src="http://i1.mifile.cn/a1/pms_1550642182.7527088!220x220.jpg" width="160">
+                            <h3 class="title">小米9 6GB+128GB</h3>
+                            <p class="desc">骁龙855，索尼4800万超广角微距三摄</p>
+                            <span class="price">2999元</span>
+                        </a></div>
+                        <div class="item"><a href="">
+                            <div class="flag flag-new">新品</div>
+                            <img src="http://i1.mifile.cn/a1/pms_1550642182.7527088!220x220.jpg" width="160">
+                            <h3 class="title">小米9 6GB+128GB</h3>
+                            <p class="desc">骁龙855，索尼4800万超广角微距三摄</p>
+                            <span class="price">2999元</span>
+                        </a></div>
+                        <div class="item"><a href="">
+                            <div class="flag flag-new">新品</div>
+                            <img src="http://i1.mifile.cn/a1/pms_1550642182.7527088!220x220.jpg" width="160">
+                            <h3 class="title">小米9 6GB+128GB</h3>
+                            <p class="desc">骁龙855，索尼4800万超广角微距三摄</p>
+                            <span class="price">2999元</span>
+                        </a></div>
+                    </main>
+                </div>
+                <div class="box-pic">
+                    <img src="http://i1.mifile.cn/a4/xmad_15565910166626_oWyDY.jpg" width="1226">
+                </div>
+                <div class="box-header">
+                    <h2>家电</h2>
+                    <!-- <div class="right-extend"></div> -->
+                    <a href="" class="right-extend">
+                        <span>查看全部</span>
+                        <span class="iconfont">&#xe65b;</span>
+                    </a>
+                </div>
+                <ul class="box-body-20">
+                    <li class="item"><a href="">
+                        <img src="http://i1.mifile.cn/a4/xmad_15021710762698_QXnBu.jpg" width="234">
+                    </a></li>
+                    <li class="item">
+                        <a href="">
+                            <div class="flag flag-new">新品</div>
+                            <img src="http://i1.mifile.cn/a1/pms_1545286017.38639954!220x220.jpg" width="160">
+                            <h3 class="title">米家互联网空调（一级能效）</h3>
+                            <p class="desc">米家互联网空调（一级能效）</p>
+                            <span class="price">2299元</span>
+                        </a>
+                        <div class="prodesc">
+                            <h3>空调很好，杠杠滴，颜值杠杠滴，帅呆了</h3>
+                            <p>来自于 星月的辉哥 的评价</p>
+                        </div>
+                    </li>
+                    <li class="item">
+                        <a href="">
+                            <div class="flag flag-new">新品</div>
+                            <img src="http://i1.mifile.cn/a1/pms_1545286017.38639954!220x220.jpg" width="160">
+                            <h3 class="title">米家互联网空调（一级能效）</h3>
+                            <p class="desc">米家互联网空调（一级能效）</p>
+                            <span class="price">2299元</span>
+                        </a>
+                        <div class="prodesc">
+                            <h3>空调很好，杠杠滴，颜值杠杠滴，帅呆了</h3>
+                            <p>来自于 星月的辉哥 的评价</p>
+                        </div>
+                    </li>
+                    <li class="item">
+                        <a href="">
+                            <div class="flag flag-new">新品</div>
+                            <img src="http://i1.mifile.cn/a1/pms_1545286017.38639954!220x220.jpg" width="160">
+                            <h3 class="title">米家互联网空调（一级能效）</h3>
+                            <p class="desc">米家互联网空调（一级能效）</p>
+                            <span class="price">2299元</span>
+                        </a>
+                        <div class="prodesc">
+                            <h3>空调很好，杠杠滴，颜值杠杠滴，帅呆了</h3>
+                            <p>来自于 星月的辉哥 的评价</p>
+                        </div>
+                    </li>
+                    <li class="item">
+                        <a href="">
+                            <div class="flag flag-new">新品</div>
+                            <img src="http://i1.mifile.cn/a1/pms_1545286017.38639954!220x220.jpg" width="160">
+                            <h3 class="title">米家互联网空调（一级能效）</h3>
+                            <p class="desc">米家互联网空调（一级能效）</p>
+                            <span class="price">2299元</span>
+                        </a>
+                        <div class="prodesc">
+                            <h3>空调很好，杠杠滴，颜值杠杠滴，帅呆了</h3>
+                            <p>来自于 星月的辉哥 的评价</p>
+                        </div>
+                    </li>
+                    <li class="item"><a href="">
+                        <img src="http://i1.mifile.cn/a4/xmad_14967432043621_gmlxi.jpg" height="300">
+                    </a></li>
+                    <li class="item">
+                        <a href="">
+                            <div class="flag flag-new">新品</div>
+                            <img src="http://i1.mifile.cn/a1/pms_1545286017.38639954!220x220.jpg" width="160">
+                            <h3 class="title">米家互联网空调（一级能效）</h3>
+                            <p class="desc">米家互联网空调（一级能效）</p>
+                            <span class="price">2299元</span>
+                        </a>
+                        <div class="prodesc">
+                            <h3>空调很好，杠杠滴，颜值杠杠滴，帅呆了</h3>
+                            <p>来自于 星月的辉哥 的评价</p>
+                        </div>
+                    </li>
+                    <li class="item">
+                        <a href="">
+                            <div class="flag flag-new">新品</div>
+                            <img src="http://i1.mifile.cn/a1/pms_1545286017.38639954!220x220.jpg" width="160">
+                            <h3 class="title">米家互联网空调（一级能效）</h3>
+                            <p class="desc">米家互联网空调（一级能效）</p>
+                            <span class="price">2299元</span>
+                        </a>
+                        <div class="prodesc">
+                            <h3>空调很好，杠杠滴，颜值杠杠滴，帅呆了</h3>
+                            <p>来自于 星月的辉哥 的评价</p>
+                        </div>
+                    </li>
+                    <li class="item">
+                        <a href="">
+                            <div class="flag flag-new">新品</div>
+                            <img src="http://i1.mifile.cn/a1/pms_1545286017.38639954!220x220.jpg" width="160">
+                            <h3 class="title">米家互联网空调（一级能效）</h3>
+                            <p class="desc">米家互联网空调（一级能效）</p>
+                            <span class="price">2299元</span>
+                        </a>
+                        <div class="prodesc">
+                            <h3>空调很好，杠杠滴，颜值杠杠滴，帅呆了</h3>
+                            <p>来自于 星月的辉哥 的评价</p>
+                        </div>
+                    </li>
+                    <li class="item-more">
+                        <ul class="item-pro">
+                            <li class="item-protxt">
+                                <h3>小米净水器（厨下式）</h3>
+                                <p>1999元</p>
+                            </li>
+                            <li class="item-propic">
+                                <img src="http://i1.mifile.cn/a1/pms_1521634907.16181074!220x220.jpg" width="80">
+                            </li>
+                        </ul>
+                        <ul class="item-others">
+                            <li class="item-protxt">
+                                <h3>浏览更多</h3>
+                                <p>热门</p>
+                            </li>
+                            <li class="item-propic">
+                                <span class="iconfont">&#xe776;</span>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+                <div class="box-pic">
+                    <img src="http://i1.mifile.cn/a4/xmad_15574754873575_WCpZM.jpg" width="1226">
+                </div>
+
+                <div class="box-header">
+                    <h2>智能</h2>
+                    <!-- <div class="right-extend"></div> -->
+                    <a href="" class="right-extend">
+                        <span>查看全部</span>
+                        <span class="iconfont">&#xe65b;</span>
+                    </a>
+                </div>
+                <ul class="box-body-20">
+                    <li class="item"><a href="">
+                        <img src="http://i1.mifile.cn/a4/xmad_15266395374048_JnZQo.jpg" width="234">
+                    </a></li>
+                    <li class="item">
+                        <a href="">
+                            <div class="flag flag-new">新品</div>
+                            <img src="http://i1.mifile.cn/a1/pms_1498564154.53184175!220x220.jpg" width="160">
+                            <h3 class="title">米家声波电动牙刷</h3>
+                            <p class="desc">磁悬浮声波马达，定制多种刷牙模式</p>
+                            <span class="price">199元</span>
+                        </a>
+                        <div class="prodesc">
+                            <h3>目前挺好的，试用一段时间之后才是道好不好</h3>
+                            <p>来自于 nicholas 的评价</p>
+                        </div>
+                    </li>
+                    <li class="item">
+                        <a href="">
+                            <div class="flag flag-new">新品</div>
+                            <img src="http://i1.mifile.cn/a1/pms_1498564154.53184175!220x220.jpg" width="160">
+                            <h3 class="title">米家声波电动牙刷</h3>
+                            <p class="desc">磁悬浮声波马达，定制多种刷牙模式</p>
+                            <span class="price">199元</span>
+                        </a>
+                        <div class="prodesc">
+                            <h3>目前挺好的，试用一段时间之后才是道好不好</h3>
+                            <p>来自于 nicholas 的评价</p>
+                        </div>
+                    </li>
+                    <li class="item">
+                        <a href="">
+                            <div class="flag flag-new">新品</div>
+                            <img src="http://i1.mifile.cn/a1/pms_1498564154.53184175!220x220.jpg" width="160">
+                            <h3 class="title">米家声波电动牙刷</h3>
+                            <p class="desc">磁悬浮声波马达，定制多种刷牙模式</p>
+                            <span class="price">199元</span>
+                        </a>
+                        <div class="prodesc">
+                            <h3>目前挺好的，试用一段时间之后才是道好不好</h3>
+                            <p>来自于 nicholas 的评价</p>
+                        </div>
+                    </li>
+                    <li class="item">
+                        <a href="">
+                            <div class="flag flag-new">新品</div>
+                            <img src="http://i1.mifile.cn/a1/pms_1498564154.53184175!220x220.jpg" width="160">
+                            <h3 class="title">米家声波电动牙刷</h3>
+                            <p class="desc">磁悬浮声波马达，定制多种刷牙模式</p>
+                            <span class="price">199元</span>
+                        </a>
+                        <div class="prodesc">
+                            <h3>目前挺好的，试用一段时间之后才是道好不好</h3>
+                            <p>来自于 nicholas 的评价</p>
+                        </div>
+                    </li>
+                    <li class="item"><a href="">
+                        <img src="http://i1.mifile.cn/a4/xmad_15501975795809_qmOCe.jpg" height="300">
+                    </a></li>
+                    <li class="item">
+                        <a href="">
+                            <div class="flag flag-new">新品</div>
+                            <img src="http://i1.mifile.cn/a1/pms_1498564154.53184175!220x220.jpg" width="160">
+                            <h3 class="title">米家声波电动牙刷</h3>
+                            <p class="desc">磁悬浮声波马达，定制多种刷牙模式</p>
+                            <span class="price">199元</span>
+                        </a>
+                        <div class="prodesc">
+                            <h3>目前挺好的，试用一段时间之后才是道好不好</h3>
+                            <p>来自于 nicholas 的评价</p>
+                        </div>
+                    </li>
+                    <li class="item">
+                        <a href="">
+                            <div class="flag flag-new">新品</div>
+                            <img src="http://i1.mifile.cn/a1/pms_1498564154.53184175!220x220.jpg" width="160">
+                            <h3 class="title">米家声波电动牙刷</h3>
+                            <p class="desc">磁悬浮声波马达，定制多种刷牙模式</p>
+                            <span class="price">199元</span>
+                        </a>
+                        <div class="prodesc">
+                            <h3>目前挺好的，试用一段时间之后才是道好不好</h3>
+                            <p>来自于 nicholas 的评价</p>
+                        </div>
+                    </li>
+                    <li class="item">
+                        <a href="">
+                            <div class="flag flag-new">新品</div>
+                            <img src="http://i1.mifile.cn/a1/pms_1498564154.53184175!220x220.jpg" width="160">
+                            <h3 class="title">米家声波电动牙刷</h3>
+                            <p class="desc">磁悬浮声波马达，定制多种刷牙模式</p>
+                            <span class="price">199元</span>
+                        </a>
+                        <div class="prodesc">
+                            <h3>目前挺好的，试用一段时间之后才是道好不好</h3>
+                            <p>来自于 nicholas 的评价</p>
+                        </div>
+                    </li>
+                    <li class="item-more">
+                        <ul class="item-pro">
+                            <li class="item-protxt">
+                                <h3>小米插线板（含3口USB 2A快充） 白色</h3>
+                                <p>49元</p>
+                            </li>
+                            <li class="item-propic">
+                                <img src="http://i1.mifile.cn/a1/pms_1528698828.42759625!220x220.jpg" width="80">
+                            </li>
+                        </ul>
+                        <ul class="item-others">
+                            <li class="item-protxt">
+                                <h3>浏览更多</h3>
+                                <p>热门</p>
+                            </li>
+                            <li class="item-propic">
+                                <span class="iconfont">&#xe776;</span>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+                <div class="box-pic">
+                    <img src="http://i1.mifile.cn/a4/xmad_15517943282724_lhogK.jpg" width="1226">
+                </div>
+                <div class="box-header">
+                    <h2>搭配</h2>
+                    <!-- <div class="right-extend"></div> -->
+                    <a href="" class="right-extend">
+                        <span>查看全部</span>
+                        <span class="iconfont">&#xe65b;</span>
+                    </a>
+                </div>
+                <ul class="box-body-20">
+                    <li class="item"><a href="">
+                        <img src="http://i1.mifile.cn/a4/xmad_14950995035103_fhWtH.jpg" width="234">
+                    </a></li>
+                    <li class="item">
+                        <a href="">
+                            <div class="flag flag-new">新品</div>
+                            <img src="http://i1.mifile.cn/a1/pms_1543569848.17082323.jpg?width=150&height=150" width="160">
+                            <h3 class="title">  小米USB充电器30W快充版（1A1C）</h3>
+                            <!-- <p class="desc">689人评价</p> -->
+                            <span class="price">59元</span>
+                            <p class="comment">689人评价</p>                            
+                        </a>
+                        <div class="prodesc">
+                            <h3>目前挺好的，试用一段时间之后才是道好不好</h3>
+                            <p>来自于 nicholas 的评价</p>
+                        </div>
+                    </li>
+                    <li class="item">
+                        <a href="">
+                            <div class="flag flag-new">新品</div>
+                            <img src="http://i1.mifile.cn/a1/pms_1543569848.17082323.jpg?width=150&height=150" width="160">
+                            <h3 class="title">  小米USB充电器30W快充版（1A1C）</h3>
+                            <!-- <p class="desc">689人评价</p> -->
+                            <span class="price">59元</span>
+                            <p class="comment">689人评价</p>                            
+                        </a>
+                        <div class="prodesc">
+                            <h3>目前挺好的，试用一段时间之后才是道好不好</h3>
+                            <p>来自于 nicholas 的评价</p>
+                        </div>
+                    </li>
+                    <li class="item">
+                        <a href="">
+                            <div class="flag flag-new">新品</div>
+                            <img src="http://i1.mifile.cn/a1/pms_1543569848.17082323.jpg?width=150&height=150" width="160">
+                            <h3 class="title">  小米USB充电器30W快充版（1A1C）</h3>
+                            <!-- <p class="desc">689人评价</p> -->
+                            <span class="price">59元</span>
+                            <p class="comment">689人评价</p>                            
+                        </a>
+                        <div class="prodesc">
+                            <h3>目前挺好的，试用一段时间之后才是道好不好</h3>
+                            <p>来自于 nicholas 的评价</p>
+                        </div>
+                    </li>
+                    <li class="item">
+                        <a href="">
+                            <div class="flag flag-new">新品</div>
+                            <img src="http://i1.mifile.cn/a1/pms_1543569848.17082323.jpg?width=150&height=150" width="160">
+                            <h3 class="title">  小米USB充电器30W快充版（1A1C）</h3>
+                            <!-- <p class="desc">689人评价</p> -->
+                            <span class="price">59元</span>
+                            <p class="comment">689人评价</p>                            
+                        </a>
+                        <div class="prodesc">
+                            <h3>目前挺好的，试用一段时间之后才是道好不好</h3>
+                            <p>来自于 nicholas 的评价</p>
+                        </div>
+                    </li>
+                    <li class="item"><a href="">
+                        <img src="http://i1.mifile.cn/a4/xmad_15571383678368_FZNeT.jpg" height="300">
+                    </a></li>
+                    <li class="item">
+                        <a href="">
+                            <div class="flag flag-new">新品</div>
+                            <img src="http://i1.mifile.cn/a1/pms_1543569848.17082323.jpg?width=150&height=150" width="160">
+                            <h3 class="title">  小米USB充电器30W快充版（1A1C）</h3>
+                            <!-- <p class="desc">689人评价</p> -->
+                            <span class="price">59元</span>
+                            <p class="comment">689人评价</p>                            
+                        </a>
+                        <div class="prodesc">
+                            <h3>目前挺好的，试用一段时间之后才是道好不好</h3>
+                            <p>来自于 nicholas 的评价</p>
+                        </div>
+                    </li>
+                    <li class="item">
+                        <a href="">
+                            <div class="flag flag-new">新品</div>
+                            <img src="http://i1.mifile.cn/a1/pms_1543569848.17082323.jpg?width=150&height=150" width="160">
+                            <h3 class="title">  小米USB充电器30W快充版（1A1C）</h3>
+                            <!-- <p class="desc">689人评价</p> -->
+                            <span class="price">59元</span>
+                            <p class="comment">689人评价</p>                            
+                        </a>
+                        <div class="prodesc">
+                            <h3>目前挺好的，试用一段时间之后才是道好不好</h3>
+                            <p>来自于 nicholas 的评价</p>
+                        </div>
+                    </li>
+                    <li class="item">
+                        <a href="">
+                            <div class="flag flag-new">新品</div>
+                            <img src="http://i1.mifile.cn/a1/pms_1543569848.17082323.jpg?width=150&height=150" width="160">
+                            <h3 class="title">  小米USB充电器30W快充版（1A1C）</h3>
+                            <!-- <p class="desc">689人评价</p> -->
+                            <span class="price">59元</span>
+                            <p class="comment">689人评价</p>                            
+                        </a>
+                        <div class="prodesc">
+                            <h3>目前挺好的，试用一段时间之后才是道好不好</h3>
+                            <p>来自于 nicholas 的评价</p>
+                        </div>
+                    </li>
+                    <li class="item-more">
+                        <ul class="item-pro">
+                            <li class="item-protxt">
+                                <h3>小米移动电源3 10000mAh USB-C双向快充版</h3>
+                                <p>129元</p>
+                            </li>
+                            <li class="item-propic">
+                                <img src="http://i1.mifile.cn/a1/pms_1552372948.24196473.jpg?width=80&height=80" width="80">
+                            </li>
+                        </ul>
+                        <ul class="item-others">
+                            <li class="item-protxt">
+                                <h3>浏览更多</h3>
+                                <p>热门</p>
+                            </li>
+                            <li class="item-propic">
+                                <span class="iconfont">&#xe776;</span>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+                <div class="box-pic">
+                    <img src="http://i1.mifile.cn/a4/xmad_15562499146276_ZVsYu.jpg" width="1226">
+                </div>
+
+                <div class="box-header">
+                    <h2>配件</h2>
+                    <!-- <div class="right-extend"></div> -->
+                    <a href="" class="right-extend">
+                        <span>查看全部</span>
+                        <span class="iconfont">&#xe65b;</span>
+                    </a>
+                </div>
+                <ul class="box-body-20">
+                    <li class="item"><a href="">
+                        <img src="http://i1.mifile.cn/a4/xmad_15438026207445_MFOpC.jpg" width="234">
+                    </a></li>
+                    <li class="item">
+                        <a href="">
+                            <div class="flag flag-new">新品</div>
+                            <img src="http://i1.mifile.cn/a1/pms_1557028966.95654878.jpg?width=150&height=150" width="160">
+                            <h3 class="title">小米9 ARE U OK保护壳</h3>
+                            <!-- <p class="desc">689人评价</p> -->
+                            <span class="price">49元</span>
+                            <p class="comment">241人评价</p>                            
+                        </a>
+                        <div class="prodesc">
+                            <h3>目前挺好的，试用一段时间之后才是道好不好</h3>
+                            <p>来自于 nicholas 的评价</p>
+                        </div>
+                    </li>
+                    <li class="item">
+                        <a href="">
+                            <div class="flag flag-new">新品</div>
+                            <img src="http://i1.mifile.cn/a1/pms_1557028966.95654878.jpg?width=150&height=150" width="160">
+                            <h3 class="title">小米9 ARE U OK保护壳</h3>
+                            <!-- <p class="desc">689人评价</p> -->
+                            <span class="price">49元</span>
+                            <p class="comment">241人评价</p>                            
+                        </a>
+                        <div class="prodesc">
+                            <h3>目前挺好的，试用一段时间之后才是道好不好</h3>
+                            <p>来自于 nicholas 的评价</p>
+                        </div>
+                    </li>
+                    <li class="item">
+                        <a href="">
+                            <div class="flag flag-new">新品</div>
+                            <img src="http://i1.mifile.cn/a1/pms_1557028966.95654878.jpg?width=150&height=150" width="160">
+                            <h3 class="title">小米9 ARE U OK保护壳</h3>
+                            <!-- <p class="desc">689人评价</p> -->
+                            <span class="price">49元</span>
+                            <p class="comment">241人评价</p>                            
+                        </a>
+                        <div class="prodesc">
+                            <h3>目前挺好的，试用一段时间之后才是道好不好</h3>
+                            <p>来自于 nicholas 的评价</p>
+                        </div>
+                    </li>
+                    <li class="item">
+                        <a href="">
+                            <div class="flag flag-new">新品</div>
+                            <img src="http://i1.mifile.cn/a1/pms_1557028966.95654878.jpg?width=150&height=150" width="160">
+                            <h3 class="title">小米9 ARE U OK保护壳</h3>
+                            <!-- <p class="desc">689人评价</p> -->
+                            <span class="price">49元</span>
+                            <p class="comment">241人评价</p>                            
+                        </a>
+                        <div class="prodesc">
+                            <h3>目前挺好的，试用一段时间之后才是道好不好</h3>
+                            <p>来自于 nicholas 的评价</p>
+                        </div>
+                    </li>
+                    <li class="item"><a href="">
+                        <img src="http://i1.mifile.cn/a4/xmad_15399144078801_opBVT.jpg" height="300">
+                    </a></li>
+                    <li class="item">
+                        <a href="">
+                            <div class="flag flag-new">新品</div>
+                            <img src="http://i1.mifile.cn/a1/pms_1557028966.95654878.jpg?width=150&height=150" width="160">
+                            <h3 class="title">小米9 ARE U OK保护壳</h3>
+                            <!-- <p class="desc">689人评价</p> -->
+                            <span class="price">49元</span>
+                            <p class="comment">241人评价</p>                            
+                        </a>
+                        <div class="prodesc">
+                            <h3>目前挺好的，试用一段时间之后才是道好不好</h3>
+                            <p>来自于 nicholas 的评价</p>
+                        </div>
+                    </li>
+                    <li class="item">
+                        <a href="">
+                            <div class="flag flag-new">新品</div>
+                            <img src="http://i1.mifile.cn/a1/pms_1557028966.95654878.jpg?width=150&height=150" width="160">
+                            <h3 class="title">小米9 ARE U OK保护壳</h3>
+                            <!-- <p class="desc">689人评价</p> -->
+                            <span class="price">49元</span>
+                            <p class="comment">241人评价</p>                            
+                        </a>
+                        <div class="prodesc">
+                            <h3>目前挺好的，试用一段时间之后才是道好不好</h3>
+                            <p>来自于 nicholas 的评价</p>
+                        </div>
+                    </li>
+                    <li class="item">
+                        <a href="">
+                            <div class="flag flag-new">新品</div>
+                            <img src="http://i1.mifile.cn/a1/pms_1557028966.95654878.jpg?width=150&height=150" width="160">
+                            <h3 class="title">小米9 ARE U OK保护壳</h3>
+                            <!-- <p class="desc">689人评价</p> -->
+                            <span class="price">49元</span>
+                            <p class="comment">241人评价</p>                            
+                        </a>
+                        <div class="prodesc">
+                            <h3>目前挺好的，试用一段时间之后才是道好不好</h3>
+                            <p>来自于 nicholas 的评价</p>
+                        </div>
+                    </li>
+                    <li class="item-more">
+                        <ul class="item-pro">
+                            <li class="item-protxt">
+                                <h3>小米移动电源3 10000mAh USB-C双向快充版</h3>
+                                <p>129元</p>
+                            </li>
+                            <li class="item-propic">
+                                <img src="http://i1.mifile.cn/a1/pms_1552372948.24196473.jpg?width=80&height=80" width="80">
+                            </li>
+                        </ul>
+                        <ul class="item-others">
+                            <li class="item-protxt">
+                                <h3>浏览更多</h3>
+                                <p>热门</p>
+                            </li>
+                            <li class="item-propic">
+                                <span class="iconfont">&#xe776;</span>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+                <div class="box-pic">
+                    <img src="http://i1.mifile.cn/a4/xmad_1556446296765_eotDT.jpg" width="1226">
+                </div>
+
+                <div class="box-header">
+                    <h2>周边</h2>
+                    <!-- <div class="right-extend"></div> -->
+                    <a href="" class="right-extend">
+                        <span>查看全部</span>
+                        <span class="iconfont">&#xe65b;</span>
+                    </a>
+                </div>
+                <ul class="box-body-20">
+                    <li class="item"><a href="">
+                        <img src="http://i1.mifile.cn/a4/xmad_15284596646115_wNMGC.jpg" width="234">
+                    </a></li>
+                    <li class="item">
+                        <a href="">
+                            <div class="flag flag-new">新品</div>
+                            <img src="http://i1.mifile.cn/a1/pms_1546508755.29828342!220x220.jpg" width="160">
+                            <h3 class="title">飞天猪米兔</h3>
+                            <!-- <p class="desc">689人评价</p> -->
+                            <span class="price">44元</span>
+                            <p class="comment">502人评价</p>                            
+                        </a>
+                        <div class="prodesc">
+                            <h3>目前挺好的，试用一段时间之后才是道好不好</h3>
+                            <p>来自于 nicholas 的评价</p>
+                        </div>
+                    </li>
+                    <li class="item">
+                        <a href="">
+                            <div class="flag flag-new">新品</div>
+                            <img src="http://i1.mifile.cn/a1/pms_1546508755.29828342!220x220.jpg" width="160">
+                            <h3 class="title">飞天猪米兔</h3>
+                            <!-- <p class="desc">689人评价</p> -->
+                            <span class="price">44元</span>
+                            <p class="comment">502人评价</p>                            
+                        </a>
+                        <div class="prodesc">
+                            <h3>目前挺好的，试用一段时间之后才是道好不好</h3>
+                            <p>来自于 nicholas 的评价</p>
+                        </div>
+                    </li>
+                    <li class="item">
+                        <a href="">
+                            <div class="flag flag-new">新品</div>
+                            <img src="http://i1.mifile.cn/a1/pms_1546508755.29828342!220x220.jpg" width="160">
+                            <h3 class="title">飞天猪米兔</h3>
+                            <!-- <p class="desc">689人评价</p> -->
+                            <span class="price">44元</span>
+                            <p class="comment">502人评价</p>                            
+                        </a>
+                        <div class="prodesc">
+                            <h3>目前挺好的，试用一段时间之后才是道好不好</h3>
+                            <p>来自于 nicholas 的评价</p>
+                        </div>
+                    </li>
+                    <li class="item">
+                        <a href="">
+                            <div class="flag flag-new">新品</div>
+                            <img src="http://i1.mifile.cn/a1/pms_1546508755.29828342!220x220.jpg" width="160">
+                            <h3 class="title">飞天猪米兔</h3>
+                            <!-- <p class="desc">689人评价</p> -->
+                            <span class="price">44元</span>
+                            <p class="comment">502人评价</p>                            
+                        </a>
+                        <div class="prodesc">
+                            <h3>目前挺好的，试用一段时间之后才是道好不好</h3>
+                            <p>来自于 nicholas 的评价</p>
+                        </div>
+                    </li>
+                    <li class="item"><a href="">
+                        <img src="http://i1.mifile.cn/a4/xmad_15543886716825_hjrKl.jpg" height="300">
+                    </a></li>
+                    <li class="item">
+                        <a href="">
+                            <div class="flag flag-new">新品</div>
+                            <img src="http://i1.mifile.cn/a1/pms_1546508755.29828342!220x220.jpg" width="160">
+                            <h3 class="title">飞天猪米兔</h3>
+                            <!-- <p class="desc">689人评价</p> -->
+                            <span class="price">44元</span>
+                            <p class="comment">502人评价</p>                            
+                        </a>
+                        <div class="prodesc">
+                            <h3>目前挺好的，试用一段时间之后才是道好不好</h3>
+                            <p>来自于 nicholas 的评价</p>
+                        </div>
+                    </li>
+                    <li class="item">
+                        <a href="">
+                            <div class="flag flag-new">新品</div>
+                            <img src="http://i1.mifile.cn/a1/pms_1546508755.29828342!220x220.jpg" width="160">
+                            <h3 class="title">飞天猪米兔</h3>
+                            <!-- <p class="desc">689人评价</p> -->
+                            <span class="price">44元</span>
+                            <p class="comment">502人评价</p>                            
+                        </a>
+                        <div class="prodesc">
+                            <h3>目前挺好的，试用一段时间之后才是道好不好</h3>
+                            <p>来自于 nicholas 的评价</p>
+                        </div>
+                    </li>
+                    <li class="item">
+                        <a href="">
+                            <div class="flag flag-new">新品</div>
+                            <img src="http://i1.mifile.cn/a1/pms_1546508755.29828342!220x220.jpg" width="160">
+                            <h3 class="title">飞天猪米兔</h3>
+                            <!-- <p class="desc">689人评价</p> -->
+                            <span class="price">44元</span>
+                            <p class="comment">502人评价</p>                            
+                        </a>
+                        <div class="prodesc">
+                            <h3>目前挺好的，试用一段时间之后才是道好不好</h3>
+                            <p>来自于 nicholas 的评价</p>
+                        </div>
+                    </li>
+                    <li class="item-more">
+                        <ul class="item-pro">
+                            <li class="item-protxt">
+                                <h3>8H乳胶弹簧静音床垫</h3>
+                                <p>1599元</p>
+                            </li>
+                            <li class="item-propic">
+                                <img src="http://i1.mifile.cn/a1/pms_1502097740.52392774!220x220.jpg" width="80">
+                            </li>
+                        </ul>
+                        <ul class="item-others">
+                            <li class="item-protxt">
+                                <h3>浏览更多</h3>
+                                <p>热门</p>
+                            </li>
+                            <li class="item-propic">
+                                <span class="iconfont">&#xe776;</span>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+                <div class="box-pic">
+                    <img src="http://i1.mifile.cn/a4/xmad_1556446296765_eotDT.jpg" width="1226">
+                </div>
+
+                <!-- 为你推荐 -->
+                <div class="box-header" style="z-index: 1;">
+                    <h2>为你推荐</h2>
+                    <!-- <div class="right-extend"></div> -->
+                    <div class="right-prenext">
+                        <span class="prev iconfont">&#xe77a;</span>
+                        <span class="next iconfont">&#xe776;</span>
+                    </div>
+                </div>
+
+                <div class="loop-slide">
+                    <ul class="slide-content">
+                        <ll class="slide-item">
+                            <a href="">
+                                <div class="flag flag-new">新品</div>
+                                <img src="http://i1.mifile.cn/a1/pms_1532053402.55641368!140x140.jpg" width="160">
+                                <h3 class="title"> 小米Max 3 标准钢化玻璃膜 </h3>
+                                <!-- <p class="desc">689人评价</p> -->
+                                <span class="price">21.9元</span>
+                                <p class="comment">1998人评价</p>                            
+                            </a>
+                        </ll>
+                        <ll class="slide-item">
+                            <a href="">
+                                <div class="flag flag-new">新品</div>
+                                <img src="http://i1.mifile.cn/a1/pms_1532053402.55641368!140x140.jpg" width="160">
+                                <h3 class="title"> 小米Max 3 标准钢化玻璃膜 </h3>
+                                <!-- <p class="desc">689人评价</p> -->
+                                <span class="price">21.9元</span>
+                                <p class="comment">1998人评价</p>                            
+                            </a>
+                        </ll>
+                        <ll class="slide-item">
+                            <a href="">
+                                <div class="flag flag-new">新品</div>
+                                <img src="http://i1.mifile.cn/a1/pms_1532053402.55641368!140x140.jpg" width="160">
+                                <h3 class="title"> 小米Max 3 标准钢化玻璃膜 </h3>
+                                <!-- <p class="desc">689人评价</p> -->
+                                <span class="price">21.9元</span>
+                                <p class="comment">1998人评价</p>                            
+                            </a>
+                        </ll>
+                        <ll class="slide-item">
+                            <a href="">
+                                <div class="flag flag-new">新品</div>
+                                <img src="http://i1.mifile.cn/a1/pms_1532053402.55641368!140x140.jpg" width="160">
+                                <h3 class="title"> 小米Max 3 标准钢化玻璃膜 </h3>
+                                <!-- <p class="desc">689人评价</p> -->
+                                <span class="price">21.9元</span>
+                                <p class="comment">1998人评价</p>                            
+                            </a>
+                        </ll>
+                        <ll class="slide-item">
+                            <a href="">
+                                <div class="flag flag-new">新品</div>
+                                <img src="http://i1.mifile.cn/a1/pms_1532053402.55641368!140x140.jpg" width="160">
+                                <h3 class="title"> 小米Max 3 标准钢化玻璃膜 </h3>
+                                <!-- <p class="desc">689人评价</p> -->
+                                <span class="price">21.9元</span>
+                                <p class="comment">1998人评价</p>                            
+                            </a>
+                        </ll>
+                        <ll class="slide-item">
+                            <a href="">
+                                <div class="flag flag-new">新品</div>
+                                <img src="http://i1.mifile.cn/a1/pms_1532053402.55641368!140x140.jpg" width="160">
+                                <h3 class="title"> 小米Max 3 标准钢化玻璃膜 </h3>
+                                <!-- <p class="desc">689人评价</p> -->
+                                <span class="price">21.9元</span>
+                                <p class="comment">1998人评价</p>                            
+                            </a>
+                        </ll>
+                        <ll class="slide-item">
+                            <a href="">
+                                <div class="flag flag-new">新品</div>
+                                <img src="http://i1.mifile.cn/a1/pms_1532053402.55641368!140x140.jpg" width="160">
+                                <h3 class="title"> 小米Max 3 标准钢化玻璃膜 </h3>
+                                <!-- <p class="desc">689人评价</p> -->
+                                <span class="price">21.9元</span>
+                                <p class="comment">1998人评价</p>                            
+                            </a>
+                        </ll>
+                        <ll class="slide-item">
+                            <a href="">
+                                <div class="flag flag-new">新品</div>
+                                <img src="http://i1.mifile.cn/a1/pms_1532053402.55641368!140x140.jpg" width="160">
+                                <h3 class="title"> 小米Max 3 标准钢化玻璃膜 </h3>
+                                <!-- <p class="desc">689人评价</p> -->
+                                <span class="price">21.9元</span>
+                                <p class="comment">1998人评价</p>                            
+                            </a>
+                        </ll>
+                        <ll class="slide-item">
+                            <a href="">
+                                <div class="flag flag-new">新品</div>
+                                <img src="http://i1.mifile.cn/a1/pms_1532053402.55641368!140x140.jpg" width="160">
+                                <h3 class="title"> 小米Max 3 标准钢化玻璃膜 </h3>
+                                <!-- <p class="desc">689人评价</p> -->
+                                <span class="price">21.9元</span>
+                                <p class="comment">1998人评价</p>                            
+                            </a>
+                        </ll>
+                        <ll class="slide-item">
+                            <a href="">
+                                <div class="flag flag-new">新品</div>
+                                <img src="http://i1.mifile.cn/a1/pms_1532053402.55641368!140x140.jpg" width="160">
+                                <h3 class="title"> 小米Max 3 标准钢化玻璃膜 </h3>
+                                <!-- <p class="desc">689人评价</p> -->
+                                <span class="price">21.9元</span>
+                                <p class="comment">1998人评价</p>                            
+                            </a>
+                        </ll>
+                    </ul>
+                </div>
+                <script>
+                
+                    $(".prev").click(function(){
+                        const outerWidth = $(".loop-slide").outerWidth()
+                        const innerWidth = $(".slide-content").outerWidth()
+                        const current = $(".slide-content").offset().left-70
+                        const oldvalue = Math.abs(current+outerWidth-innerWidth)
+                        let newvalue
+                        if(Math.abs(current) >= outerWidth){
+                            newvalue = current+outerWidth
+                            $(".slide-content").css("transform","translateX("+newvalue+"px)")
+                        }else if(Math.abs(current) < outerWidth){
+                            newvalue = current
+                            $(".slide-content").css("transform","translateX("+newvalue+"px)")
+                        }
+                    })
+                    $(".next").click(function(){
+                        const outerWidth = $(".loop-slide").outerWidth()
+                        const innerWidth = $(".slide-content").outerWidth()
+                        const current = $(".slide-content").offset().left-70
+                        const oldvalue = Math.abs(Math.abs(current)+outerWidth-innerWidth)
+                        let newvalue
+                        if(oldvalue >= outerWidth){
+                            newvalue = current-outerWidth
+                            $(".slide-content").css("transform","translateX("+newvalue+"px)")
+                        }else if(oldvalue < outerWidth){
+                            newvalue = current
+                            $(".slide-content").css("transform","translateX("+newvalue+"px)")
+                        }
+                    })
+                
+                </script>
+
+                <!-- 热评产品 -->
+                <div class="box-header" style="z-index: 1;margin-top: 12px;">
+                    <h2>热评产品</h2>
+                    <!-- <div class="right-extend"></div> -->
+                    <!-- <div class="right-prenext">
+                        <span class="prev iconfont">&#xe77a;</span>
+                        <span class="next iconfont">&#xe776;</span>
+                    </div> -->
+                </div>
+
+                <ul class="hot-comment">
+                    <li class="hot-item"><a href="">
+                        <div class="hot-img">
+                            <img src="http://i1.mifile.cn/a4/aa6b038a-2946-4549-acff-17c58e701556" height="220">
+                        </div>
+                        <div class="hot-content">
+                            <h2 class="desc">东西真心不错，用过最好用的插线板，做工外观没得挑剔，3个USB接口很实用，充电快，建议不包邮的应该在...</h2>
+                            <p class="author"> 来自于 yinyin19891117 的评价 </p>
+                            <p class="info"><span>小米插线板</span><span>|</span><span>49元</span></p>
+                        </div>
+                    </a></li>
+                    <li class="hot-item"><a href="">
+                        <div class="hot-img">
+                            <img src="http://i1.mifile.cn/a4/aa6b038a-2946-4549-acff-17c58e701556" height="220">
+                        </div>
+                        <div class="hot-content">
+                            <h2 class="desc">东西真心不错，用过最好用的插线板，做工外观没得挑剔，3个USB接口很实用，充电快，建议不包邮的应该在...</h2>
+                            <p class="author"> 来自于 yinyin19891117 的评价 </p>
+                            <p class="info"><span>小米插线板</span><span>|</span><span>49元</span></p>
+                        </div>
+                    </a></li>
+                    <li class="hot-item"><a href="">
+                        <div class="hot-img">
+                            <img src="http://i1.mifile.cn/a4/aa6b038a-2946-4549-acff-17c58e701556" height="220">
+                        </div>
+                        <div class="hot-content">
+                            <h2 class="desc">东西真心不错，用过最好用的插线板，做工外观没得挑剔，3个USB接口很实用，充电快，建议不包邮的应该在...</h2>
+                            <p class="author"> 来自于 yinyin19891117 的评价 </p>
+                            <p class="info"><span>小米插线板</span><span>|</span><span>49元</span></p>
+                        </div>
+                    </a></li>
+                    <li class="hot-item"><a href="">
+                        <div class="hot-img">
+                            <img src="http://i1.mifile.cn/a4/aa6b038a-2946-4549-acff-17c58e701556" height="220">
+                        </div>
+                        <div class="hot-content">
+                            <h2 class="desc">东西真心不错，用过最好用的插线板，做工外观没得挑剔，3个USB接口很实用，充电快，建议不包邮的应该在...</h2>
+                            <p class="author"> 来自于 yinyin19891117 的评价 </p>
+                            <p class="info"><span>小米插线板</span><span>|</span><span>49元</span></p>
+                        </div>
+                    </a></li>
+                </ul>
+
+
+                <!-- 内容 -->
+                <div class="box-header" style="z-index: 1;margin-top: 22px;">
+                    <h2>内容</h2>
+                    <!-- <div class="right-extend"></div> -->
+                    <!-- <div class="right-prenext">
+                        <span class="prev iconfont">&#xe77a;</span>
+                        <span class="next iconfont">&#xe776;</span>
+                    </div> -->
+                </div>
+
+                <ul class="hot-comment" style="height:420px;">
+                    <li class="hot-item hot-extend orige-border" style="box-sizing:border-box;"><a href="">
+                        <!-- <h3 class="main-title">图书</h3>
+                        <h4 class="title">哈利·波特与被诅咒的孩子</h4>
+                        <p class="desc">“哈利·波特”第八个故事中文版震撼来袭！特别彩排版剧本！ </p>
+                        <p class="price">29.37元</p>
+                        <div style="width:216px;height:154px;margin: 0 auto;">
+                            <img src="http://i1.mifile.cn/a4/5e5da924-84e3-4959-9e25-5891cdf30757" width="216">
+                        </div> -->
+                        <ul class="hot-inner">
+                            <li class="hot-inner-item"><a href="">
+                                <h3 class="main-title orige">图书</h3>
+                                <h4 class="title">哈利·波特与被诅咒的孩子</h4>
+                                <div class="desc">
+                                    <p>“哈利·波特”第八个故事中文版震撼来袭！特别彩排版剧本！ </p>
+                                </div>
+                                <p class="price">29.37元</p>
+                                <div style="width:216px;height:154px;margin: 0 auto;">
+                                    <img src="http://i1.mifile.cn/a4/5e5da924-84e3-4959-9e25-5891cdf30757" width="216">
+                                </div>
+                            </a></li>
+                            <li class="hot-inner-item"><a href="">
+                                <h3 class="main-title orige">图书</h3>
+                                <h4 class="title">哈利·波特与被诅咒的孩子</h4>
+                                <div class="desc">
+                                    <p>“哈利·波特”第八个故事中文版震撼来袭！特别彩排版剧本！ </p>
+                                </div>
+                                <p class="price">29.37元</p>
+                                <div style="width:216px;height:154px;margin: 0 auto;">
+                                    <img src="http://i1.mifile.cn/a4/5e5da924-84e3-4959-9e25-5891cdf30757" width="216">
+                                </div>
+                            </a></li>
+                            <li class="hot-inner-item"><a href="">
+                                <h3 class="main-title orige">图书</h3>
+                                <h4 class="title">哈利·波特与被诅咒的孩子</h4>
+                                <div class="desc">
+                                    <p>“哈利·波特”第八个故事中文版震撼来袭！特别彩排版剧本！ </p>
+                                </div>
+                                <p class="price">29.37元</p>
+                                <div style="width:216px;height:154px;margin: 0 auto;">
+                                    <img src="http://i1.mifile.cn/a4/5e5da924-84e3-4959-9e25-5891cdf30757" width="216">
+                                </div>
+                            </a></li>
+                        </ul>
+                        <div class="hot-button-prev iconfont">&#xe66c;</div>
+                        <div class="hot-button-next iconfont">&#xe66b;</div>
+
+                    </a></li>
+                    <li class="hot-item hot-extend green-border" style="box-sizing:border-box;"><a href="">
+                        
+                        <ul class="hot-inner">
+                            <li class="hot-inner-item"><a href="">
+                                <h3 class="main-title green">MIUI 主题</h3>
+                                <h4 class="title">BROWN & FRIENDS定制主题</h4>
+                                <div class="desc">
+                                    <p>BROWN & FRIENDS 小米定制主题，是LINE FRIENDS在与小米公司品牌合作基础上，为小米米粉节特殊定制。</p>
+                                </div>
+                                <p class="price">&nbsp;</p>
+                                <div style="width:216px;height:154px;margin: 0 auto;">
+                                    <img src="http://i1.mifile.cn/a4/xmad_1554795253_HKsNc.png" width="216">
+                                </div>
+                            </a></li>
+                            <li class="hot-inner-item"><a href="">
+                                <h3 class="main-title green">MIUI 主题</h3>
+                                <h4 class="title">BROWN & FRIENDS定制主题</h4>
+                                <div class="desc">
+                                    <p>BROWN & FRIENDS 小米定制主题，是LINE FRIENDS在与小米公司品牌合作基础上，为小米米粉节特殊定制。</p>
+                                </div>
+                                <p class="price">&nbsp;</p>
+                                <div style="width:216px;height:154px;margin: 0 auto;">
+                                    <img src="http://i1.mifile.cn/a4/xmad_1554795253_HKsNc.png" width="216">
+                                </div>
+                            </a></li>
+                            <li class="hot-inner-item"><a href="">
+                                <h3 class="main-title green">MIUI 主题</h3>
+                                <h4 class="title">BROWN & FRIENDS定制主题</h4>
+                                <div class="desc">
+                                    <p>BROWN & FRIENDS 小米定制主题，是LINE FRIENDS在与小米公司品牌合作基础上，为小米米粉节特殊定制。</p>
+                                </div>
+                                <p class="price">&nbsp;</p>
+                                <div style="width:216px;height:154px;margin: 0 auto;">
+                                    <img src="http://i1.mifile.cn/a4/xmad_1554795253_HKsNc.png" width="216">
+                                </div>
+                            </a></li>
+                        </ul>
+                        <div class="hot-button-prev iconfont">&#xe66c;</div>
+                        <div class="hot-button-next iconfont">&#xe66b;</div>
+
+                    </a></li>
+                    <li class="hot-item hot-extend red-border" style="box-sizing:border-box;"><a href="">
+                        
+                        <ul class="hot-inner">
+                            <li class="hot-inner-item"><a href="">
+                                <h3 class="main-title red">游戏</h3>
+                                <h4 class="title">米柚手游模拟器</h4>
+                                <p class="desc">在电脑上玩遍小米所有手游</p>
+                                <p class="price">免费</p>
+                                <div style="width:216px;height:154px;margin: 0 auto;">
+                                    <img src="http://i1.mifile.cn/a4/T1czW_BXCv1R4cSCrK.png" width="216">
+                                </div>
+                            </a></li>
+                            <li class="hot-inner-item"><a href="">
+                                <h3 class="main-title red">游戏</h3>
+                                <h4 class="title">米柚手游模拟器</h4>
+                                <p class="desc">在电脑上玩遍小米所有手游</p>
+                                <p class="price">免费</p>
+                                <div style="width:216px;height:154px;margin: 0 auto;">
+                                    <img src="http://i1.mifile.cn/a4/T1czW_BXCv1R4cSCrK.png" width="216">
+                                </div>
+                            </a></li>
+                            <li class="hot-inner-item"><a href="">
+                                <h3 class="main-title red">游戏</h3>
+                                <h4 class="title">米柚手游模拟器</h4>
+                                <p class="desc">在电脑上玩遍小米所有手游</p>
+                                <p class="price">免费</p>
+                                <div style="width:216px;height:154px;margin: 0 auto;">
+                                    <img src="http://i1.mifile.cn/a4/T1czW_BXCv1R4cSCrK.png" width="216">
+                                </div>
+                            </a></li>
+                        </ul>
+                        <div class="hot-button-prev iconfont">&#xe66c;</div>
+                        <div class="hot-button-next iconfont">&#xe66b;</div>
+                        
+                        
+                        
+                        
+                        <!-- <h3 class="main-title red">游戏</h3>
+                        <h4 class="title">米柚手游模拟器</h4>
+                        <p class="desc">在电脑上玩遍小米所有手游</p>
+                        <p class="price">免费</p>
+                        <div style="width:216px;height:154px;margin: 0 auto;">
+                            <img src="http://i1.mifile.cn/a4/T1czW_BXCv1R4cSCrK.png" width="216">
+                        </div> -->
+                    </a></li>
+                    <li class="hot-item hot-extend blue-border" style="box-sizing:border-box;"><a href="">
+                        
+                        <ul class="hot-inner">
+                            <li class="hot-inner-item"><a href="">
+                                <h3 class="main-title blue">应用</h3>
+                                <h4 class="title">2018金米奖</h4>
+                                <p class="desc">最优秀的应用和游戏</p>
+                                <p class="price">&nbsp;</p>
+                                <div style="width:216px;height:154px;margin: 0 auto;">
+                                    <img src="http://i1.mifile.cn/a4/3332da7d-4056-4694-9548-c83b7b3af7d3" width="216">
+                                </div>
+                            </a></li>
+                            <li class="hot-inner-item"><a href="">
+                                <h3 class="main-title blue">应用</h3>
+                                <h4 class="title">2018金米奖</h4>
+                                <p class="desc">最优秀的应用和游戏</p>
+                                <p class="price">&nbsp;</p>
+                                <div style="width:216px;height:154px;margin: 0 auto;">
+                                    <img src="http://i1.mifile.cn/a4/3332da7d-4056-4694-9548-c83b7b3af7d3" width="216">
+                                </div>
+                            </a></li>
+                            <li class="hot-inner-item"><a href="">
+                                <h3 class="main-title blue">应用</h3>
+                                <h4 class="title">2018金米奖</h4>
+                                <p class="desc">最优秀的应用和游戏</p>
+                                <p class="price">&nbsp;</p>
+                                <div style="width:216px;height:154px;margin: 0 auto;">
+                                    <img src="http://i1.mifile.cn/a4/3332da7d-4056-4694-9548-c83b7b3af7d3" width="216">
+                                </div>
+                            </a></li>
+                        </ul>
+                        <div class="hot-button-prev iconfont">&#xe66c;</div>
+                        <div class="hot-button-next iconfont">&#xe66b;</div>
+                        
+                        
+                        
+                        <h3 class="main-title blue">应用</h3>
+                        <h4 class="title">2018金米奖</h4>
+                        <p class="desc">最优秀的应用和游戏</p>
+                        <p class="price">&nbsp;</p>
+                        <div style="width:216px;height:154px;margin: 0 auto;">
+                            <img src="http://i1.mifile.cn/a4/3332da7d-4056-4694-9548-c83b7b3af7d3" width="216">
+                        </div>
+                    </a></li>
+                </ul>
+                <script>
+                
+                    $(".hot-button-prev.iconfont").click(function(){
+                        const outerWidth = $(".hot-item.hot-extend").outerWidth()
+                        const innerWidth = $(".hot-inner").outerWidth()
+                        const current = $(".hot-inner").offset().left-70
+                        const oldvalue = Math.abs(current+outerWidth-innerWidth)
+                        let newvalue
+                        if(Math.abs(current) >= outerWidth){
+                            newvalue = current+outerWidth
+                            $(".hot-inner").css("transform","translateX("+newvalue+"px)")
+                        }else if(Math.abs(current) < outerWidth){
+                            newvalue = current
+                            $(".hot-inner").css("transform","translateX("+newvalue+"px)")
+                        }
+                    })
+                    $(".hot-button-next.iconfont").click(function(){
+                        const outerWidth = $(".hot-item.hot-extend").outerWidth()
+                        const innerWidth = $(".hot-inner").outerWidth()
+                        const current = $(".hot-inner").offset().left-70
+                        const oldvalue = Math.abs(Math.abs(current)+outerWidth-innerWidth)
+                        let newvalue
+                        if(oldvalue >= outerWidth){
+                            newvalue = current-outerWidth
+                            $(".hot-inner").css("transform","translateX("+newvalue+"px)")
+                        }else if(oldvalue < outerWidth){
+                            newvalue = current
+                            $(".hot-inner").css("transform","translateX("+newvalue+"px)")
+                        }
+                    })
+                
+                </script>
+
+                <!-- 视频 -->
+                <div class="box-header" style="z-index: 1;margin-top: 22px;">
+                    <h2>视频</h2>
+                    <!-- <div class="right-extend"></div> -->
+                    <!-- <div class="right-prenext">
+                        <span class="prev iconfont">&#xe77a;</span>
+                        <span class="next iconfont">&#xe776;</span>
+                    </div> -->
+                    <a href="" class="right-extend">
+                        <span>查看全部</span>
+                        <span class="iconfont">&#xe65b;</span>
+                    </a>
+                </div>
+
+                <ul class="video-box">
+                    <li class="video-item"><a href="">
+                        <div class="video-img">
+                            <img src="http://i1.mifile.cn/a4/xmad_15519428237288_Exonu.jpg" height="180">
+                        </div>
+                        <div class="video-content">
+                            <h3>王源 & 小米9 全新广告大片</h3>
+                            <p>好看又能打！我反正被帅到了，Will You？</p>
+                        </div>
+                    </a></li>
+                    <li class="video-item"><a href="">
+                        <div class="video-img">
+                            <img src="http://i1.mifile.cn/a4/xmad_15519291062065_hikIJ.jpg" height="180">
+                        </div>
+                        <div class="video-content">
+                            <h3>雷军对话王源</h3>
+                            <p>聊了3小时，这9个秘密决定公开</p>
+                        </div>
+                    </a></li>
+                    <li class="video-item"><a href="">
+                        <div class="video-img">
+                            <img src="http://i1.mifile.cn/a4/xmad_15519293321746_ChIsr.jpg" height="180">
+                        </div>
+                        <div class="video-content">
+                            <h3>小米MIX 3 磁动力滑盖全面屏</h3>
+                            <p>全新滑盖交互体验，不一样的新感觉</p>
+                        </div>
+                    </a></li>
+                    <li class="video-item"><a href="">
+                        <div class="video-img">
+                            <img src="http://i1.mifile.cn/a4/xmad_15519292842527_ujNMV.jpg" height="180">
+                        </div>
+                        <div class="video-content">
+                            <h3>小米MIX 3 故宫特别版</h3>
+                            <p>传承中华国宝艺术之美</p>
+                        </div>
+                    </a></li>
+                </ul>
+
+
+
+            </div>
+        </div>
+        <footer class="site-footer">
+            <div class="container">
+                <ul class="list-service">
+                    <li class="list-item"><a href="">
+                            预约维修服务
+                    </a></li>
+                    <li class="list-item"><a href="">
+                            预约维修服务
+                    </a></li>
+                    <li class="list-item"><a href="">
+                            预约维修服务
+                    </a></li>
+                    <li class="list-item"><a href="">
+                            预约维修服务
+                    </a></li>
+                    <li class="list-item"><a href="">
+                            预约维修服务
+                    </a></li>
+                </ul>
+                <ul class="footer-link">
+                    <li class="link-content">
+                        <div class="link-content-item"><a href="">
+                            <h3>帮助中心</h3>
+                            <p>账户管理</p>
+                            <p>购物指南</p>
+                            <p>订单操作</p>
+                        </a></div>
+                        <div class="link-content-item"><a href="">
+                            <h3>帮助中心</h3>
+                            <p>账户管理</p>
+                            <p>购物指南</p>
+                            <p>订单操作</p>
+                        </a></div>
+                        <div class="link-content-item"><a href="">
+                            <h3>帮助中心</h3>
+                            <p>账户管理</p>
+                            <p>购物指南</p>
+                            <p>订单操作</p>
+                        </a></div>
+                        <div class="link-content-item"><a href="">
+                            <h3>帮助中心</h3>
+                            <p>账户管理</p>
+                            <p>购物指南</p>
+                            <p>订单操作</p>
+                        </a></div>
+                        <div class="link-content-item"><a href="">
+                            <h3>帮助中心</h3>
+                            <p>账户管理</p>
+                            <p>购物指南</p>
+                            <p>订单操作</p>
+                        </a></div>
+                        <div class="link-content-item"><a href="">
+                            <h3>帮助中心</h3>
+                            <p>账户管理</p>
+                            <p>购物指南</p>
+                            <p>订单操作</p>
+                        </a></div>
+                    </li>
+                    <li class="contact">
+                        <h3>400-100-5678</h3>
+                        <p>周一至周日 8:00-18:00<br>（仅收市话费）</p>
+                        <div class="contact-button">
+                            联系客服
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </footer>
+    </body>
+</html>
